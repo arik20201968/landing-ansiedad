@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terapia para la Ansiedad | Psic. Ariel Villagomez</title>
+    <!-- Tailwind CSS para diseño moderno -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Fuentes de Google: Playfair Display (elegante) y Plus Jakarta Sans (limpia) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..700;1,400..700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: #FAF8F5; /* Fondo arena suave */
+            color: #2D3732; /* Texto gris verdoso oscuro */
+        }
+        .font-serif {
+            font-family: 'Playfair Display', serif;
+        }
+    </style>
+</head>
+<body class="antialiased selection:bg-[#2C4A3F] selection:text-white">
+
+    <!-- HERO SECTION (Título, video y primera llamada a la acción) -->
+    <header class="min-h-screen flex items-center justify-center py-16 px-4 md:px-8">
+        <div class="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+            
+            <!-- Textos del Hero -->
+            <div class="lg:col-span-7 space-y-6 text-left">
+                <div class="inline-block bg-[#EAE6DF] text-[#2C4A3F] text-xs font-semibold tracking-wider uppercase px-3 py-1 rounded-full">
+                    Terapia Psicológica Online
+                </div>
+                <h1 class="font-serif text-4xl md:text-5xl lg:text-6xl text-[#1E3029] leading-tight font-medium">
+                    ¿La ansiedad te impide disfrutar del día a día? <br>
+                    <span class="italic text-[#4A6B5D]">Te ayudo a recuperar la calma.</span>
+                </h1>
+                <p class="text-lg md:text-xl text-stone-600 font-light leading-relaxed max-w-xl">
+                    Aprende a gestionar tus pensamientos con un enfoque práctico, cercano y adaptado a tu ritmo de vida.
+                </p>
+                
+                <!-- CTA Principal con aviso de horario -->
+                <div class="pt-4 space-y-3">
+                    <a href="tel:5576339228" class="inline-flex items-center justify-center px-8 py-4 bg-[#2C4A3F] hover:bg-[#1E3029] text-white font-medium rounded-full transition duration-300 shadow-md hover:shadow-lg transform hover:-translate-y-0.5 w-full sm:w-auto text-center">
+                        <svg class="w-5 h-5 mr-2 animate-pulse" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.94.725l.548 2.2a1 1 0 01-.321.988l-1.305.98a10.582 10.582 0 004.872 4.872l.98-1.305a1 1 0 01.988-.321l2.2.548a1 1 0 01.725.94V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+                        </svg>
+                        Llamar para orientación gratuita
+                    </a>
+                    <p class="text-xs text-stone-500 italic pl-1">
+                        Llamada sin compromiso al 5576339228 (Lunes a Viernes de 12:00 a 2:00 pm)
+                    </p>
+                </div>
+            </div>
+
+            <!-- Video en bucle (Optimizado para no distraer en exceso) -->
+            <div class="lg:col-span-5 relative">
+                <div class="aspect-[4/5] w-full rounded-2xl overflow-hidden shadow-2xl relative bg-stone-200">
+                    <!-- Video con auto-reproducción silenciosa y bucle -->
+                    <video autoplay loop muted playsinline class="w-full h-full object-cover">
+                        <source src="https://res.cloudinary.com/y4fv6jwh/video/upload/v1782926227/Respiro_ym1lru.mp4" type="video/mp4">
+                        Tu navegador no soporta la reproducción de video.
+                    </video>
+                    <!-- Superposición sutil para suavizar el contraste -->
+                    <div class="absolute inset-0 bg-black/5 mix-blend-multiply pointer-events-none"></div>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- SECCIÓN: ¿TE IDENTIFICAS? (Síntomas) -->
+    <section class="py-20 px-4 bg-[#F3EFEA]">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="font-serif text-3xl md:text-4xl text-[#1E3029] mb-4 font-medium">¿Te identificas con alguna de estas situaciones?</h2>
+            <p class="text-stone-600 mb-12 font-light max-w-xl mx-auto">La ansiedad se manifiesta de formas muy distintas, pero no tienes por qué aprender a vivir con ellas en silencio.</p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-left">
+                <!-- Tarjeta 1 -->
+                <div class="p-6 bg-[#FAF8F5] rounded-xl border border-stone-200/60 shadow-sm flex items-start space-x-4">
+                    <span class="text-[#2C4A3F] text-xl mt-1">✦</span>
+                    <p class="text-stone-700 font-light">Sientes un nudo en el estómago constante que no te deja estar en paz.</p>
+                </div>
+                <!-- Tarjeta 2 -->
+                <div class="p-6 bg-[#FAF8F5] rounded-xl border border-stone-200/60 shadow-sm flex items-start space-x-4">
+                    <span class="text-[#2C4A3F] text-xl mt-1">✦</span>
+                    <p class="text-stone-700 font-light">Das vueltas en la cama por las noches sin poder conciliar el sueño.</p>
+                </div>
+                <!-- Tarjeta 3 -->
+                <div class="p-6 bg-[#FAF8F5] rounded-xl border border-stone-200/60 shadow-sm flex items-start space-x-4">
+                    <span class="text-[#2C4A3F] text-xl mt-1">✦</span>
+                    <p class="text-stone-700 font-light">Tu mente va a mil por hora, atrapada en constantes pensamientos de "¿y si...?".</p>
+                </div>
+                <!-- Tarjeta 4 -->
+                <div class="p-6 bg-[#FAF8F5] rounded-xl border border-stone-200/60 shadow-sm flex items-start space-x-4">
+                    <span class="text-[#2C4A3F] text-xl mt-1">✦</span>
+                    <p class="text-stone-700 font-light">Evitas salir con amigos o ir a ciertos lugares por miedo a sentirte mal de repente.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN: ¿CÓMO TE AYUDO? (El método) -->
+    <section class="py-24 px-4">
+        <div class="max-w-3xl mx-auto text-center space-y-8">
+            <span class="text-xs font-semibold tracking-widest text-[#2C4A3F] uppercase">Mi Metodología</span>
+            <h2 class="font-serif text-3xl md:text-4xl text-[#1E3029] font-medium leading-snug">
+                Un espacio práctico, estructurado y sin juicios
+            </h2>
+            <p class="text-lg text-stone-600 leading-relaxed font-light">
+                Utilizo la <strong>terapia cognitivo-conductual (TCC)</strong>. No solo hablaremos de tus problemas; te llevarás herramientas prácticas y reales para la próxima vez que sientas que pierdes el control sobre tus pensamientos.
+            </p>
+            
+            <div class="pt-6 grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-xl mx-auto">
+                <div class="border-t border-stone-300 pt-4">
+                    <p class="text-sm text-stone-500 uppercase tracking-wider">Duración</p>
+                    <p class="text-xl font-medium text-[#1E3029] mt-1">Sesiones de 60 minutos</p>
+                </div>
+                <div class="border-t border-stone-300 pt-4">
+                    <p class="text-sm text-stone-500 uppercase tracking-wider">Frecuencia recomendada</p>
+                    <p class="text-xl font-medium text-[#1E3029] mt-1">Semanal</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN: PRUEBA SOCIAL (Testimonios) -->
+    <section class="py-20 px-4 bg-[#EAE6DF]/40">
+        <div class="max-w-4xl mx-auto text-center">
+            <div class="mb-6 inline-block text-3xl text-[#2C4A3F]">“</div>
+            <figure class="max-w-2xl mx-auto">
+                <blockquote class="text-xl md:text-2xl font-serif text-[#1E3029] italic leading-relaxed font-light">
+                    Llevaba años arrastrando un cansancio mental que no entendía. Decidir pedir ayuda fue difícil, pero aprender a identificar el origen de mi ansiedad y tener herramientas reales para gestionarla ha hecho que recupere mi sueño y mi capacidad de disfrutar del día a día.
+                </blockquote>
+                <figcaption class="mt-6 text-sm font-semibold text-stone-600 tracking-wider uppercase">
+                    — Consultante A.M. (Anónimo con autorización)
+                </figcaption>
+            </figure>
+        </div>
+    </section>
+
+    <!-- SECCIÓN: SOBRE MÍ (Confianza) -->
+    <section class="py-24 px-4 max-w-5xl mx-auto">
+        <div class="bg-[#2C4A3F] text-[#FAF8F5] rounded-3xl p-8 md:p-16 grid grid-cols-1 md:grid-cols-12 gap-10 items-center shadow-xl">
+            <!-- Texto -->
+            <div class="md:col-span-8 space-y-6">
+                <span class="text-xs uppercase tracking-widest text-[#A2BEB4] font-semibold">Tu terapeuta</span>
+                <h2 class="font-serif text-3xl md:text-4xl font-medium">Hola, soy Ariel Villagomez</h2>
+                <p class="text-base md:text-lg text-[#D1DDD8] font-light leading-relaxed">
+                    Soy psicólogo egresado de la Universidad Nacional Autónoma de México (UNAM). Mi propósito es acompañar y brindar herramientas a personas que, al igual que tú, buscan superar el peso de la ansiedad diaria. Mi enfoque se basa en el respeto, la calidez humana y un espacio libre de juicios.
+                </p>
+                <div class="pt-2">
+                    <div class="inline-block border border-[#A2BEB4]/40 text-[#FAF8F5] text-xs px-3 py-1.5 rounded-md">
+                         Lic. en Psicología UNAM
+                    </div>
+                </div>
+            </div>
+            <!-- Elemento de apoyo estético/sello -->
+            <div class="md:col-span-4 flex justify-center">
+                <div class="w-32 h-32 md:w-44 md:h-44 rounded-full border border-[#FAF8F5]/10 flex items-center justify-center p-4 text-center">
+                    <p class="text-xs uppercase tracking-widest text-[#FAF8F5]/60 font-serif leading-relaxed">
+                        Compromiso <br> Profesional <br> Y Humano
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- LLAMADA A LA ACCIÓN FINAL -->
+    <section class="py-24 px-4 text-center bg-[#F3EFEA]">
+        <div class="max-w-2xl mx-auto space-y-8">
+            <h2 class="font-serif text-3xl md:text-4xl text-[#1E3029] font-medium">Demos el primer paso en conjunto</h2>
+            <p class="text-stone-600 font-light max-w-md mx-auto">
+                No tienes que resolver esto a solas. Podemos conversar brevemente para que conozcas mi dinámica de trabajo y resuelvas tus dudas.
+            </p>
+            
+            <div class="space-y-4">
+                <a href="tel:5576339228" class="inline-flex items-center justify-center px-8 py-4 bg-[#2C4A3F] hover:bg-[#1E3029] text-white font-medium rounded-full transition duration-300 shadow-md hover:shadow-lg transform hover:-translate-y-0.5 w-full sm:w-auto text-center">
+                    <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.94.725l.548 2.2a1 1 0 01-.321.988l-1.305.98a10.582 10.582 0 004.872 4.872l.98-1.305a1 1 0 01.988-.321l2.2.548a1 1 0 01.725.94V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+                    </svg>
+                    Llamar ahora (Orientación gratis)
+                </a>
+                <p class="text-xs text-stone-500 italic">
+                    Agenda tu primera llamada de orientación (gratis y sin compromiso) al 5576339228 de lunes a Viernes de 12:00 a 2:00 pm
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER / AVISO LEGAL IMPORTANTE -->
+    <footer class="bg-[#1E3029] text-stone-400 py-12 px-4 border-t border-stone-800">
+        <div class="max-w-4xl mx-auto space-y-6 text-xs text-center md:text-left leading-relaxed">
+            <p class="font-semibold text-stone-300">Aviso legal importante:</p>
+            <p>
+                Esta página tiene fines informativos y no sustituye la atención de un profesional de la salud mental ni los servicios de urgencia. Si estás atravesando una crisis emocional o crees que tú o alguien más corre un riesgo inmediato, llama al <strong>911</strong> de inmediato.
+            </p>
+            <p>
+                Para apoyo psicológico gratuito y orientación en salud mental las 24 horas del día en México, comunícate con la <strong>Línea de la Vida al 800 911 2000</strong>.
+            </p>
+            <div class="pt-6 border-t border-stone-800 flex flex-col md:flex-row justify-between items-center text-[10px] text-stone-500">
+                <p>© 2026 Psic. Ariel Villagomez. Todos los derechos reservados.</p>
+                <p class="mt-2 md:mt-0">Diseño limpio y profesional para salud mental.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
